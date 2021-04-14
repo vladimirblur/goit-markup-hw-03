@@ -242,7 +242,7 @@ p {
   margin-right: 30px;
 }
 /* Секция Наша команда */
-.team .section {
+.team.section {
   background-color: var(--team-bg);
 }
 
@@ -269,6 +269,8 @@ p {
 }
 
 .team .item {
+  flex-basis: calc((100% - 120px) / 4);
+
   background-color: #fff;
 }
 
