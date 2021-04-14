@@ -242,6 +242,10 @@ p {
   display: flex;
 }
 
+.activity .item {
+  flex-basis: calc((100% - 90px) / 3);
+}
+
 .activity .item:not(:last-child) {
   margin-right: 30px;
 }
