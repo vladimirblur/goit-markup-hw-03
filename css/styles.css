@@ -30,6 +30,10 @@ h3 {
 p {
   margin: 0;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .container {
   margin-left: auto;
@@ -193,8 +197,6 @@ p {
 
 .features.list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -223,7 +225,6 @@ p {
 .section-title {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
   padding-bottom: 50px;
 
   font-weight: 700;
@@ -235,14 +236,13 @@ p {
 
 .activity {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .activity .item:not(:last-child) {
   margin-right: 30px;
 }
 /* Секция Наша команда */
-.team-section {
+.team .section {
   background-color: var(--team-bg);
 }
 
@@ -262,7 +262,6 @@ p {
 .team {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -323,7 +322,7 @@ p {
 .filters {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+
   margin-bottom: 50px;
 }
 
