@@ -217,6 +217,10 @@ p {
   line-height: 1.71;
 }
 
+.features .item {
+  flex-basis: calc((100%-120) / 4);
+}
+
 .features .item:not(:last-child) {
   margin-right: 30px;
 }
