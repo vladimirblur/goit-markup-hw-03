@@ -33,6 +33,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .section {
@@ -70,7 +72,7 @@ img {
 /* Глобальное оформление списков */
 .list {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 
